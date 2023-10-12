@@ -674,6 +674,7 @@ class VantagePro(Station):
 
         # set the fields variable the values in the dict
         self.fields = fields
+        return fields
 
     def get_reading(self) -> WeatherPoint:
         """Return a single weather reading."""
