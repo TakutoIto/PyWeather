@@ -411,7 +411,7 @@ class VantagePro(Station):
     def __init__(
             self,
             device,
-            log_interval=5,
+            log_interval=1,
             log_start_date=None,
             clear=False
     ):
